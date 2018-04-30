@@ -33,7 +33,7 @@ export class InFrontOfYou extends React.Component {
 
 export class ButcherShop extends React.Component {
   render() {
-    return <div> { ROTTEN_MEAT_PRODUCTS.map(product => (<li>{product}</li>) ) }</div>
+    return <div> { BUTCHER_PRODUCTS.map(product => (<li>{product}</li>) ) }</div>
   }
 }
 
